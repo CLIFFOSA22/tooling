@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The AMI ID for the Jenkins server"
   type        = string
-  default     = "ami-0f226ae5ce4b11922"
+  default     = "ami-04dd23e62ed049936"
 }
 
 variable "instance_type" {
@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "The key name for the Jenkins server"
   type        = string
-  default     = "DevOps_Train2024"
+  default     = "osas"
 }
 
 variable "main-region" {
